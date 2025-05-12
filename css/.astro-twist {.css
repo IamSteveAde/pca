@@ -1,0 +1,76 @@
+.astro-twist {
+      padding: 80px 20px 40px;
+      text-align: center;
+    }
+
+    .astro-twist h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .moon-drift {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .plasma-veil {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      margin-top: 60px;
+    }
+
+    .ether-loom {
+      background: #f9f9f9;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .ether-loom h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .solar-thread {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .nova-cell {
+      flex: 1 1 45%;
+      background: #ffffff;
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+    }
+
+    .nova-cell:hover {
+      border-color: #aaa;
+    }
+    
+
+    .galaxy-surge {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .galaxy-surge a {
+      display: inline-block;
+      margin: 10px;
+      padding: 14px 28px;
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .galaxy-surge a:hover {
+      background: #555;
+    }

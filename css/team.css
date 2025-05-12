@@ -1,0 +1,618 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .our-people{
+    border: 1px solid #6685c2;
+    width: 70%;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+	align-items: center;
+	min-height: 100vh; /* full screen height */
+    
+  }
+  .title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  .title-wrappers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    margin-top: -30px;
+  }
+  .title-wrapperss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto; /* Center the container itself */
+    margin-top: -30px;
+    width: 60%; /* You can adjust this as needed */
+  }
+  .counter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+  
+  }
+  
+  .counter-item {
+    text-align: center;
+    width: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 250px;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    
+  backdrop-filter: blur(170px); /* This adds the blurry effect */
+  box-shadow: 0 10px 30px rgb(28, 27, 27);
+  transition: all 0.3s ease;
+  margin-bottom: 60px;
+  }
+  
+  .counter {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4a90e2;
+    margin-bottom: 1px;
+  }
+  
+  .counter-item p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .title-wrapperss p{
+    text-align: center;
+  }
+  .title-wrapper h5{
+    margin-top: 50px;
+  }
+  .ask{
+    color: #6685c2;
+  }
+  
+  .fancy-title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6685c2;
+    padding: 10px 20px;
+    border-left: 1px solid #6685c2;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .fancy-title::before,
+  .fancy-title::after {
+    content: '';
+    position: absolute;
+    background-color: #6685c2;
+    transition: all 0.4s ease;
+  }
+  
+  /* Bottom border (hidden by default) */
+  .fancy-title::before {
+    height: 3px;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Right border (optional, for smooth flow) */
+  .fancy-title::after {
+    height: 0%;
+    width: 3px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Hover effect: animate bottom and right border */
+  .fancy-title:hover::before {
+    width: 100%;
+  }
+  
+  .fancy-title:hover::after {
+    height: 100%;
+  }
+  
+  .visual-block img{
+    height: 80vh;
+    width: 100vh;
+  }
+  .allofus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  
+  .our-team {
+    
+    text-align: center;
+
+  }
+  
+  .text-block h4 {
+ 
+    margin-bottom: 40px;
+    color: #6685c2;
+  }
+  .text-block{
+    text-align: justify;
+    color: #666;
+  }
+  .text-block p{
+    text-align: justify;
+    color: #b5b5b5;
+  }
+  /* Overall Section */
+.our-team {
+    text-align: center;
+    padding: 50px 20px;
+    
+    margin-bottom: 60px;
+  }
+  
+  .our-team h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #6685c2;
+    margin-bottom: 40px;
+  }
+  
+  /* Team Members Grid */
+  .team-members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  
+  /* Team Card */
+  .team-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+   
+    box-shadow: 0 10px 30px rgb(28, 27, 27);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .team-card img{
+    width: 100%;
+  }
+  .hero-eagle {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('/img/Vista_About_Team_HeaderModule2_2000x866.jpg') center/cover no-repeat;
+    color: #fff;
+   
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex; /* enable flexbox */
+    align-items: center; /* vertical center */
+    justify-content: center; /* horizontal center */
+    text-align: center;
+    padding: 0 20px; /* small padding for mobile */
+    position: relative;
+      
+      
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  
+  
+  /* Image Styles */
+  .team-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Team Member Name */
+  .team-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6685c2;
+    margin: 20px 0;
+    transition: color 0.3s ease;
+  }
+  
+  /* Role Description */
+  .team-card p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Social Media Icons */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    font-size: 18px;
+    color: #555;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #4a90e2; /* Highlight color */
+    transform: translateY(-5px); /* Slightly lift the icon */
+  }
+  
+  /* Hover Effect on Team Cards */
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-card:hover .team-image {
+    transform: scale(1.05); /* Slightly zoom the image */
+  }
+  
+  .team-card:hover h3 {
+    color: #4a90e2; /* Change name color on hover */
+  }
+  
+  
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 80px;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 40px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  }
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 1.8rem;
+    color: #999;
+    cursor: pointer;
+  }
+  .unique-latest-sections{
+    overflow-y: hidden;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  
+  .modal-profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  
+  .modal-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  
+  .modal-info h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #111;
+    text-align: left;
+  }
+  
+  .modal-info .role {
+    margin-top: 4px;
+    color: #666;
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+  
+  .modal-info p {
+    margin-top: 15px;
+    line-height: 1.6;
+    color: #444;
+    font-size: 0.95rem;
+    text-align: left;
+  }
+  
+  .modal-info .socials {
+    margin-top: 15px;
+  }
+  
+  .socials i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #0077ff;
+    cursor: pointer;
+  }
+  
+  .socials i:hover {
+    color: #004c99;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .modal-profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .ask{
+      color: #6685c2;
+      font-size: 20px;
+      
+    }
+    #ask{
+      color: #6685c2;
+      font-size: 20px;
+      margin-top: 100px;
+    }
+    .counter-item {
+      padding-top: 30px;
+      padding-bottom:30px;
+      
+      height: 30vh;
+      width: 70%;
+      border-radius: 10px;
+    }
+    .counter-container {
+      display: grid;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-left: 30px;
+      margin-right: 30px;
+     
+      margin-top: 50px;
+      width: 100%;
+    
+    }
+    .unique-latest-sections{
+      overflow-y: hidden;
+
+    }
+    .title-wrapperss{
+      width: 80%;
+    }
+   
+    .our-team h2{
+      font-size: 28px;
+    }
+    .counter-item{
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-bottom: -5px;
+      
+    }
+  
+    .modal-info {
+      align-items: center;
+    }
+  }
+  .our-people {
+    padding: 100px 20px;
+    
+  }
+  
+  .our-people .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .people-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+  
+  .text-block {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text-block h2 {
+    font-size: 2.8rem;
+    color: #6685c2;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .text-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .text-block li {
+    font-size: 1.1rem;
+    color: #d1d1d1;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .text-block li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #d1d1d1;
+    font-size: 1.5rem;
+    line-height: 1;
+    top: 2px;
+  }
+  
+  .visual-block {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .visual-block img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    transition: transform 0.4s ease;
+  }
+  
+  .visual-block img:hover {
+    transform: scale(1.03);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .people-content {
+      flex-direction: column-reverse;
+      gap: 40px;
+    }
+  
+    .text-block h2 {
+      font-size: 2.2rem;
+    }
+  
+    .text-block li {
+      font-size: 1rem;
+    }
+  }
+
+  /* Join Our Team Section */
+.join-our-team {
+    padding: 50px 20px;
+    background-color: transparent; /* Transparent background */
+    border: 1px solid #6685c2;
+    width: 80%;
+    margin-bottom: 60px;
+  }
+  
+  .join-our-team .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .join-our-team .text {
+    width: 50%;
+    padding: 20px;
+    text-align: left; /* Left-align the text */
+  }
+  
+  .join-our-team h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #6685c2;
+    margin-bottom: 20px;
+  }
+  
+  .join-our-team p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #6685c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .opa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  
+  .cta-button:hover {
+    background-color: #357ab7;
+  }
+  
+  .join-our-team .image {
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    overflow-y: hidden;
+  }
+  
+  .join-our-team .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .join-our-team .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .join-our-team .text {
+      width: 90%;
+      text-align: left; /* Ensures the text is left-aligned on mobile as well */
+    }
+  
+    .join-our-team .image {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .content{
+      width: 100%;
+    }
+  }
+
+  
+  
