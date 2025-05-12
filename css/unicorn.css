@@ -223,6 +223,7 @@
   scroll-snap-align: center;
   text-align: center;
   transition: transform 0.5s ease-in-out;
+  
 }
 
 .space-tube {

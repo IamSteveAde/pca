@@ -1155,7 +1155,7 @@ body{
   }
 
   .glimmerPopCube:hover {
-    background-color: #010d24;
+    background-color: #6685c2;
     color: #fff;
     transform: scale(1.05);
   }
@@ -1436,3 +1436,11 @@ body{
   border-radius: 10px;
   max-width: 500px;
 }
+.glimmerPopCube h4{
+  color: #010d24;
+}
+.glimmerPopCube p{
+  color: #010d24;
+}
+
+
