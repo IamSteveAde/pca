@@ -38,6 +38,11 @@
         display: grid;
        
     }
+   
+    .about__text{
+      margin-top: -120px;
+    }
+   
     .cta-buttons a{
        
         margin-top: 10px;

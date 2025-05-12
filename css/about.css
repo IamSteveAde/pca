@@ -503,9 +503,21 @@ section{
      overflow-x: hidden;
      font-weight: 600;
      text-align: center;
+     margin-bottom: 30px;
+     font-size: 20px;
     }
     
 }
+.section-titles{
+     width: 90%;
+     margin-left: 30px;
+     font-size: 30px;
+     margin-right: 30px;
+     overflow-x: hidden;
+     font-weight: 600;
+     text-align: center;
+     margin-bottom: 30px;
+    }
 
 @media (max-width: 480px) {
     .strategy-step {
@@ -513,6 +525,7 @@ section{
     }
     
 }
+
 /* Section Base */
 /* Section Base */
 .how-we-invest {

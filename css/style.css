@@ -597,6 +597,7 @@ ol {
 		height: 90vh;
 		
 	}
+	
 	.header__logo{
 		margin-left: -10px;
 	}
@@ -2448,6 +2449,12 @@ ol {
 		margin-top: 60px;
 		
     }
+	 .about__text{
+      margin-top: -120px;
+    }
+	.about__text {
+	padding-top: 1px;
+}
 	.about__pic__inner img{
 		
 		margin-top: 4px;
