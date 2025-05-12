@@ -338,6 +338,7 @@ body{
     .iccs{
       width: 25%;
     }
+    
   
     .our-strategy {
     
@@ -1322,6 +1323,35 @@ body{
   .space-tube {
     height: 220px;
   }
+   .mysticGridShuffler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* exactly 3 columns per row */
+    gap: 1rem;
+    color: #010d24;
+    width: 80vw;
+    margin: 0 auto; /* centers the grid container horizontally */
+    justify-items: center; /* centers content inside each grid cell */
+    align-items: center;    /* centers items vertically */
+  }
+   .glimmerPopCube {
+    background: #d2d2d242;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.495);
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* centers content vertically */
+    align-items: center;      /* centers content horizontally */
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    color: #010d24;
+  }
 }
 
 .space-matrix-photo-jam {
@@ -1418,6 +1448,7 @@ body{
   border: none;
   font-size: 30px;
   cursor: pointer;
+  color: white;
 }
 .modalOverlayFlyer {
   display: none;
@@ -1431,10 +1462,11 @@ body{
 }
 
 .detailRocketLauncher {
-  background: white;
+  background: #010d24;
   padding: 2rem;
   border-radius: 10px;
   max-width: 500px;
+ 
 }
 .glimmerPopCube h4{
   color: #010d24;

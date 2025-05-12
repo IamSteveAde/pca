@@ -148,6 +148,12 @@
     .galactic-grid {
       grid-template-columns: repeat(2, 1fr);
     }
+    .wobble-chunk{
+      margin-bottom: 120px;
+      margin-top: -100px;
+      border-radius: 1px;
+      
+    }
   }
   
   @media (max-width: 480px) {
