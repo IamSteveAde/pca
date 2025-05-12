@@ -1021,6 +1021,9 @@ ol {
 		margin-bottom: 200px;
 		
 	}
+	.about__pic{
+		margin-bottom: -80px;
+	}
 	#contact-form{
 		margin-bottom: 200px;
 	}
