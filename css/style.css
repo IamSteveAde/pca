@@ -2262,11 +2262,12 @@ ol {
 }
 
 .about__text {
-	padding-top: 1px;
+	padding-top: 100px;
 }
-*{
-	outline: red;
+* {
+  outline: 1px solid red;
 }
+
 
 .about__text.about__page__text {
 	padding-top: 0;
