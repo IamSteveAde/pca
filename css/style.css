@@ -2444,7 +2444,7 @@ ol {
 	.about__pic__inner img{
 		
 		margin-top: 4px;
-		margin-bottom: 20px;
+		margin-bottom: 2px;
 		margin-left: 3px;
 		border-radius: 10px;
 	}
@@ -3747,7 +3747,7 @@ ol {
 		
 		margin-right: 30px;
 		
-		padding-bottom: 0px;
+		padding-bottom: 1px;
 		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.285);
 		background-color: #010d24;
 	}
