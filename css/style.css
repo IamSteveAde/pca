@@ -834,7 +834,7 @@ ol {
 	overflow-x: hidden;
 	overflow-y: hidden;
     
-    width: 100%;         /* Full width */
+    width: 90%;         /* Full width */
     height: 100vh;        /* Full height */
     background-image: url('/img/natiion.png');
     background-size: contain;        /* Cover entire space */
@@ -2268,9 +2268,7 @@ ol {
 .about__text {
 	padding-top: 100px;
 }
-* {
-  outline: 1px solid red;
-}
+
 
 
 .about__text.about__page__text {
@@ -4547,7 +4545,7 @@ body {
 
 /* General Styling */
 .social-impact-section {
-    max-width: 1200px;
+    max-width: 95vw;
     margin: 0 auto;
     padding: 50px 20px;
     text-align: center;
@@ -4595,6 +4593,7 @@ h2 {
     align-items: flex-start;
     gap: 30px;
     flex-wrap: wrap;
+	overflow-x: hidden;
 }
 
 .video-sections {
