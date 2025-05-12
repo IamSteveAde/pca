@@ -3760,8 +3760,11 @@ ol {
 		padding: 0 40px;
 	}
 	.about__text {
-		padding-top: 0;
+		
 		margin-bottom: 4px;
+	}
+	#texttit{
+		margin-top: -110px;
 	}
 	.about__pic {
 		padding-left: 0;
