@@ -441,6 +441,12 @@ section{
   padding-bottom: 20px;
   
 }
+.chateauContent{
+  border-top: 1px solid #010d24;
+}
+.elixirTitle{
+  counter-reset: white;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -913,4 +919,101 @@ section{
   }
  
   
-  
+  .black-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease-in-out;
+  padding: 20px;
+}
+
+.modal-content {
+  background: #000;
+  border-radius: 12px;
+  padding: 40px 30px;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  text-align: left;
+  animation: scaleUp 0.4s ease forwards;
+  transform: scale(0.8);
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  font-size: 40px;
+  color: #6685c2;
+  margin-bottom: 10px;
+}
+
+.modal-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.modal-content p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #6685c2;
+}
+
+.modal-pillars {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pillar h5 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: #1a1a1a;
+}
+
+.pillar p {
+  font-size: 15px;
+  color: #666;
+  margin: 0;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes scaleUp {
+  to {transform: scale(1);}
+}
+
+@media (min-width: 600px) {
+  .modal-pillars {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .pillar {
+    width: 30%;
+    text-align: left;
+  }
+}

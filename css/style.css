@@ -4238,6 +4238,9 @@ ol {
     background-color: #1B103A;
   
   }
+  .bus9{
+	background-color: #d9d9d9;
+  }
   .backsq {
     position: absolute;
 	overflow-x: hidden;
@@ -4388,13 +4391,13 @@ body {
 
 
 #vaultSlider {
-	display: flex;
+	display: grid;
 	overflow-x: auto;
 	gap: 24px;
 	scroll-behavior: smooth;
 	padding-bottom: 16px;
 	overflow-y: hidden;
-	
+	grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
 	margin-bottom: 100px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -4436,9 +4439,10 @@ body {
 }
 
 .elixirTitle {
-	font-size: 1.1rem;
+	font-size: 20px;
 	font-weight: 600;
 	color: #6685c2;
+	text-align: left;
 }
 
 .elixirDesc {
