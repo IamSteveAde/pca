@@ -68,11 +68,12 @@ section{
 .qasd{
   color: rgb(58, 58, 58);
   padding-top: 30px;
+  font-weight: 600;
   
 }
 .qaz{
   color: rgb(58, 58, 58);
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 10px;
   
 }
@@ -199,7 +200,7 @@ section{
   }
   .value-proposition {
     padding: 80px 10%;
-  
+    
     font-family: 'Segoe UI', sans-serif;
     color: #6685c2;
   }
@@ -438,6 +439,7 @@ section{
   border-radius: 12px;
   width: 100%;
   padding-bottom: 20px;
+  
 }
 
 /* Responsive Design */
@@ -446,6 +448,10 @@ section{
         width: 10%;
         display: grid;
         
+    }
+    .yum{
+      padding-left: 60px;
+      padding-right: 60px;
     }
     body{
       overflow-x: hidden;
@@ -781,6 +787,7 @@ section{
     overflow-x: auto;
     padding: 100px 0;
     
+    
   }
   
   .line-scroll {
@@ -902,7 +909,7 @@ section{
   .slide-verse{
     scrollbar-width: none;
     margin-bottom: 100px;
-    height: 100vh;
+    height: 80vh;
   }
  
   
