@@ -821,8 +821,7 @@ ol {
 	overflow-y: hidden;
 	background-attachment: fixed;
     
-    width: 100%;         /* Full width */
-    height: 100vh;        /* Full height */
+   
     background-image: url('/img/kenya\ and\ 9ja.png');
     background-size: contain;        /* Cover entire space */
     background-position: center;   /* Center the image */
